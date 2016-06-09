@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => 'local',
+    'default' => 'ftp',
 
     /*
     |--------------------------------------------------------------------------
@@ -52,6 +52,14 @@ return [
             'driver' => 'local',
             'root' => storage_path('app/public'),
             'visibility' => 'public',
+        ],
+
+        'ftp' => [
+            'driver' => 'ftp',
+            'host' => '10.4.11.252',
+            'username' => 'monata',
+            'password' => '1234qwer',
+            'root' => 'storage',
         ],
 
         's3' => [
