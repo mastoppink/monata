@@ -1,2 +1,2 @@
 # Monata
-Aplikasi Pengolah Data Pihak Ketiga Kanwil Jakbar I
+Aplikasi Pengolah Data Pihak Ketiga
